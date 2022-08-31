@@ -6,11 +6,13 @@ function onScroll() {
 	showBackToTopButtonOnScroll()
 }
 
+
+
 function showNavOnScroll() {
 	if (scrollY > 0) {
-		navigation.classList.add('scroll')
+		navigation.classList.add('onscroll')
 	} else {
-		navigation.classList.remove('scroll')
+		navigation.classList.remove('onscroll')
 	}
 }
 function showBackToTopButtonOnScroll() {

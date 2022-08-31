@@ -160,14 +160,14 @@ nav {
 
 	z-index: 100;
 }
-nav.scroll {
+nav.onscroll {
 	background: var(--primary-color);
 	width: 100vw;
 }
-nav.scroll svg:nth-child(1) path {
+nav.onscroll svg:nth-child(1) path {
 	fill: white;
 }
-nav.scroll button path {
+nav.onscroll button path {
 	stroke: white;
 }
 
